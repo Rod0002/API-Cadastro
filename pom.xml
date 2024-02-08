@@ -14,7 +14,7 @@
 	<name>Cadastro de Artistas</name>
 	<description>API de cadastro de artistas</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<start-class>com.ca.CadastroArtistasApplication</start-class>
 	</properties>
 	<repositories>
