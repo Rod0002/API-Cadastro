@@ -12,6 +12,15 @@ A API de Cadastro de Artistas é uma aplicação desenvolvida em Java com o fram
 - **URL:** `/artistas`
 - Retorna a lista de todos os artistas cadastrados.
 
+## Excluir Artista por ID
+
+Para excluir um artista com base no ID fornecido, utilize o seguinte endpoint:
+
+- **Método:** DELETE
+- **URL:** /artistas/{id}
+
+Essa operação remove um artista com base no ID fornecido.
+
 ### Buscar Artista por ID
 
 - **Método:** GET
