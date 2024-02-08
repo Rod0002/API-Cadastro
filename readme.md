@@ -2,58 +2,57 @@
 
 ## Resumo
 
-A API de Cadastro de Artistas È uma aplicaÁ„o desenvolvida em Java com o framework Spring Boot, oferecendo serviÁos para gerenciar informaÁıes de artistas. A API permite a listagem, busca, cadastro e exclus„o de artistas.
+A API de Cadastro de Artistas √© uma aplica√ß√£o desenvolvida em Java com o framework Spring Boot, oferecendo servi√ßos para gerenciar informa√ß√µes de artistas. A API permite a listagem, busca, cadastro e exclus√£o de artistas.
 
 ## Endpoints
 
 ### Listar Artistas
 
-- **MÈtodo:** GET
+- **M√©todo:** GET
 - **URL:** `/artistas`
 - Retorna a lista de todos os artistas cadastrados.
 
 ### Buscar Artista por ID
 
-- **MÈtodo:** GET
+- **M√©todo:** GET
 - **URL:** `/artistas/{id}`
-- Retorna os detalhes de um artista especÌfico com base no ID fornecido.
+- Retorna os detalhes de um artista espec√≠fico com base no ID fornecido.
 
 ### Cadastrar Artista
 
-- **MÈtodo:** POST
+- **M√©todo:** POST
 - **URL:** `/artistas`
-- Permite o cadastro de novos artistas. Envie os dados do artista no corpo da requisiÁ„o no formato JSON.
+- Permite o cadastro de novos artistas. Envie os dados do artista no corpo da requisi√ß√£o no formato JSON.
 
   Exemplo de Dados JSON:
   ```json
   {
     "nome": "Nome do Artista",
-    "descricao": "DescriÁ„o do Artista"
+    "descricao": "Descri√ß√£o do Artista"
   }
 
   Excluir Artista por ID
 
-    MÈtodo: DELETE
+    M√©todo: DELETE
     URL: /artistas/{id}
     Remove um artista com base no ID fornecido.
 
-ConfiguraÁ„o do Ambiente
+Configura√ß√£o do Ambiente
 
     Certifique-se de ter o Java 17 instalado.
-    Clone o repositÛrio: git clone https://github.com/seu-usuario/api-cadastro-artistas.git
-    Navegue atÈ o diretÛrio do projeto: cd api-cadastro-artistas
-    Execute a aplicaÁ„o Spring Boot: comando de execuÁ„o
+    Navegue at√© o diret√≥rio do projeto: cd api-cadastro-artistas
+    Execute a aplica√ß√£o Spring Boot (CadastroArtistaApplication): comando de execu√ß√£o
 
-ObservaÁıes
+Observa√ß√µes
 
-    O servidor padr„o est· configurado para rodar na porta 8080. Certifique-se de que a porta n„o esteja em uso por outra aplicaÁ„o.
+    O servidor padr√£o est√° configurado para rodar na porta 8080. Certifique-se de que a porta n√£o esteja em uso por outra aplica√ß√£o.
     Utilize ferramentas como o Insomnia ou Postman para interagir com a API.
 
 Exemplo de Uso (Insomnia)
 
-    Crie um novo request com o mÈtodo POST.
+    Crie um novo request com o m√©todo POST.
     Configure a URL para http://localhost:8080/artistas.
-    No corpo da requisiÁ„o, envie dados JSON para cadastrar um novo artista.
-    Envie a requisiÁ„o e verifique a resposta.
+    No corpo da requisi√ß√£o, envie dados JSON para cadastrar um novo artista.
+    Envie a requisi√ß√£o e verifique a resposta.
 
-A API de Cadastro de Artistas simplifica a gest„o de informaÁıes de artistas, oferecendo operaÁıes b·sicas para interaÁ„o. Personalize conforme necess·rio para atender ‡s necessidades especÌficas do seu projeto.
+A API de Cadastro de Artistas simplifica a gest√£o de informa√ß√µes de artistas, oferecendo opera√ß√µes b√°sicas para intera√ß√£o. Personalize conforme necess√°rio para atender √†s necessidades espec√≠ficas do seu projeto.
